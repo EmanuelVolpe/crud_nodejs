@@ -32,6 +32,7 @@ exports.save = (req, res) => {
         }
     });
 };
+
 exports.edit = (req, res) => {
     const id = req.params.id;
     conexion.query('SELECT * FROM users WHERE id=?', id, (error, results) => {
