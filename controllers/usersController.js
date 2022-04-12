@@ -13,7 +13,7 @@ exports.index = (req, res) => {
     })
 }
 
-//REDIRIGO A LA VISTA "CREATE"
+//REDIRIJO A LA VISTA "CREATE"
 exports.create = (req, res) => {
     res.render('create');
 }
